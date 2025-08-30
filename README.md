@@ -1,1 +1,5 @@
-# simple-interest
+p=int(input("enter the principle amount"));
+t=int(input("enter the time period in years"));
+r=int(input("enter the rate of interest"));
+S=(p*t*r)/100;
+print("simple interest",S);
